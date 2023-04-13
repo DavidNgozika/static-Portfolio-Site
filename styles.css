@@ -32,11 +32,14 @@ ul {
 }
 
 #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: whitesmoke;
     box-shadow: 0 0 8px 1px #333;
-    padding: 0.15rem;
+    padding: 0.15rem 1rem;
 }
 
 #navbar a {
