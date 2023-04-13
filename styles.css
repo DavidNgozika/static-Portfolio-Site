@@ -35,7 +35,7 @@ ul {
     position: sticky;
     top: 0;
     background-color: whitesmoke;
-    box-shadow: 0 1px 10px #333;
+    box-shadow: 0 0 8px 1px #333;
     padding: 0.15rem;
 }
 
@@ -49,4 +49,19 @@ ul {
 #navbar a:hover {
     background-color: #555;
     color: white;
+}
+
+#welcome-section {
+    padding-top: 15%;
+    height: 100vh;
+    color: #eee;
+    background-image: url('images/Hero-laptop.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-repeat: no-repeat;
+}
+
+#welcome-section h1, h2 {
+    margin: 0;
 }
