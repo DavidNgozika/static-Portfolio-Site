@@ -68,3 +68,20 @@ ul {
 #welcome-section h1, h2 {
     margin: 0;
 }
+
+#about {
+    width: 95%;
+    margin: 0 auto 2rem;
+    padding: 2rem 1rem;
+}
+
+#about h2 {
+    margin: 0.25rem;
+}
+
+#about p {
+    text-align: center;
+    letter-spacing: 2.5px;
+    width: 80%;
+    margin: 0 auto;
+}
