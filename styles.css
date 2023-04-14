@@ -164,8 +164,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
+    font-size: 120%;
     background-color: hsl(240, 25%, 25%);
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
 }
 
 #contact a {
