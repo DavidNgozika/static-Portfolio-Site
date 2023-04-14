@@ -63,6 +63,7 @@ ul {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.65);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #welcome-section h1, h2 {
@@ -84,4 +85,56 @@ ul {
     letter-spacing: 2.5px;
     width: 80%;
     margin: 0 auto;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h2 {
+    margin: 2rem 0;
+}
+
+#projects img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+#projects-container {
+    text-align: center;
+}
+
+#projects-container a {
+    display: block;
+    text-decoration: none;
+    width: 95%;
+    font-size: 120%;
+    margin: 2rem auto 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #333;
+}
+
+.project-title {
+    margin: 0;
+    padding: 1rem;
+}
+
+.t-p {
+    color: #093;
+}
+
+.p-l-p {
+    color: #960;
+}
+
+.n-c {
+    color: #db0610;
+}
+
+.a-c {
+    color: #4d4dff;
 }
