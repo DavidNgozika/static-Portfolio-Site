@@ -104,10 +104,12 @@ ul {
 }
 
 #projects-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-#projects-container a {
+.project-tile {
     display: block;
     text-decoration: none;
     width: 95%;
@@ -215,5 +217,28 @@ ul {
     
     #contact a {
         margin: 0 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    #welcome-section {
+        padding: 45% 1rem;
+    }
+
+    #projects-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #projects-container a {
+        width: 45vw;
     }
 }
