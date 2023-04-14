@@ -138,3 +138,24 @@ ul {
 .a-c {
     color: #4d4dff;
 }
+
+.show-all-btn {
+    background-color: #60f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 10rem;
+    margin: 1.5rem auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.show-all-btn:hover {
+    background-color: #3d0099;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.show-all-btn:active {
+    box-shadow: 0 0 0 #333;
+}
