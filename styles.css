@@ -159,3 +159,35 @@ ul {
 .show-all-btn:active {
     box-shadow: 0 0 0 #333;
 }
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: hsl(240, 25%, 25%);
+}
+
+#contact a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+#contact .github:hover {
+    color: #bbb;
+}
+
+#contact .facebook:hover {
+    color: #1977f3;
+}
+
+#contact .instagram:hover {
+    color: #cd389e;
+}
+
+#contact .twitter:hover {
+    color: #56abeb;
+}
