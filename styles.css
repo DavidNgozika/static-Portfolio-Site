@@ -146,7 +146,7 @@ ul {
     text-align: center;
     text-decoration: none;
     width: 10rem;
-    margin: 1.5rem auto;
+    margin: 4rem auto;
     padding: 0.5rem;
     border-radius: 5px;
     font-weight: bold;
@@ -230,7 +230,7 @@ ul {
     }
 
     #welcome-section {
-        padding: 45% 1rem;
+        padding: 25% 1rem;
     }
 
     #projects-container {
@@ -240,5 +240,11 @@ ul {
 
     #projects-container a {
         width: 45vw;
+    }
+}
+
+@media (min-width: 992px) {
+    #projects-container a {
+        width: 23vw;
     }
 }
